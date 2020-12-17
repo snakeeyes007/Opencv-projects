@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-i=cv2.imread(r'C:\Users\KIIT\Dropbox\Dropbox\My PC (SOUVIK)\Desktop\shapes.png')
+i=cv2.imread(r'C:\Users\KIIT\Dropbox\Dropbox\My PC (GOURAV)\Desktop\shapes.png')
 j=cv2.cvtColor(i,cv2.COLOR_BGR2GRAY)
 c,k=cv2.threshold(j,70,255,0)
 #cv2.imshow('image',k)
