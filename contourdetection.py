@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-i = cv2.imread(r'C:\Users\KIIT\Dropbox\Dropbox\My PC (SOUVIK)\Desktop\shapes.png')
+i = cv2.imread(r'C:\Users\KIIT\Dropbox\Dropbox\My PC (GOURAV)\Desktop\shapes.png')
 #               image    conversion to grayscale
 j = cv2.cvtColor(i,cv2.COLOR_BGR2GRAY)
 #cv2.imshow('i',j)#0 and 255
